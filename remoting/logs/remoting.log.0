@@ -1,0 +1,33 @@
+Feb 24, 2022 3:19:23 PM hudson.remoting.jnlp.Main createEngine
+INFO: Setting up agent: gradle projects
+Feb 24, 2022 3:19:24 PM hudson.remoting.jnlp.Main$CuiListener <init>
+INFO: Jenkins agent is running in headless mode.
+Feb 24, 2022 3:19:24 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 4.11.2
+Feb 24, 2022 3:19:24 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using D:\sonarqube\sonarqube-scanner-gradle\gradle-basic\remoting as a remoting work directory
+Feb 24, 2022 3:19:24 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Locating server among [http://localhost:8080/]
+Feb 24, 2022 3:19:26 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+Feb 24, 2022 3:19:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    50677
+  Identity:      5d:39:48:86:3f:fa:63:9d:87:e1:15:23:61:59:12:e9
+Feb 24, 2022 3:19:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Handshaking
+Feb 24, 2022 3:19:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connecting to localhost:50677
+Feb 24, 2022 3:19:26 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+Feb 24, 2022 3:19:27 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+Feb 24, 2022 3:19:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Remote identity confirmed: 5d:39:48:86:3f:fa:63:9d:87:e1:15:23:61:59:12:e9
+Feb 24, 2022 3:19:29 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Connected
+Feb 24, 2022 6:04:58 PM hudson.remoting.jnlp.Main$CuiListener status
+INFO: Terminated
+Feb 24, 2022 6:05:14 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+INFO: Failed to connect to the master. Will try again: java.net.ConnectException Connection refused: connect
